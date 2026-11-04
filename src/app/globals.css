@@ -1,0 +1,12 @@
+@import "@mantine/core/styles.css";
+@layer tailwind {
+  @tailwind base;
+}
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-background: hsl(235, 18%, 26%);
+  --btn-hove: hsl(4, 100%, 67%);
+  --btn-color: hsl(234, 29%, 20%);
+}
